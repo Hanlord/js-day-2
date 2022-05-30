@@ -3,15 +3,15 @@
 function atm(number){
     var hundreds=Math.floor(number / 100);
     let rest = number%100;
-    var fifty= Math.floor(rest / 50);
+    var fifties= Math.floor(rest / 50);
     rest = rest % 50;
-    var twenty= Math.floor(rest /20);
+    var twenties= Math.floor(rest /20);
     rest %= 20;
     var tenth= Math.floor(rest /10);
 
-    return `you have ${hundreds} 100, ${fifty} 50,${twenty} 20, ${tenth} 10,`;
+    return `you have ${hundreds} 100, ${fifties} 50,${twenties} 20, ${tenth} 10,`;
 }
-console.log(atm(380));
+console.log(atm(280));
 
 
 //time converter
@@ -21,4 +21,4 @@ function time(number){
     var minute = rest;
     return `${hour} hour(s) and ${minute} minute(s)`;
 }
-console.log(time(200));
+console.log(time(387));
