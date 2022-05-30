@@ -33,7 +33,20 @@ console.log(box())
 var text=(function(){
     let text2="i am a web developer";
     let text3= text2.charAt(0).toUpperCase();
-    let text= text3+text2;
+    let text= text3+text2.substring(1);
     return text;
 }());
-console.log(text.substring(1));
+console.log(text);
+
+function grade(Math,Physics,English){
+    let sum= Math+Physics+English;
+    let avg = (sum) / 3;
+    let grade = [sum, avg] ;
+    return grade;
+    // return "this is your sum " + sum + " and this is you avarage " + avg;
+}
+console.log(grade(3,4,5)[0]);
+console.log(grade(3,4,5)[1]);
+
+
+
