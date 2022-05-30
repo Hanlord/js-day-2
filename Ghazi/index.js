@@ -90,7 +90,7 @@
        let x3 = Math.floor((x2 * 20) / 20);
        let x4 = Math.floor((x3 * 10) / 10);
 
-       let sum_3 = 'your mony will pay as the follow' + "\n" + x1 + "notes of 100$" + " \n" + x2 + "notes of 50$" + "\n" + x3 + "notes of 20 $ " + "\n " + x4 + "notes of 10$";
+       let sum_3 = 'your mony will pay as the follow' + "\n" + x1 + "notes of 100$" + "\n" + x2 + "notes of 50$" + "\n" + x3 + "notes of 20 $ " + "\n" + x4 + "notes of 10$";
 
 
 
