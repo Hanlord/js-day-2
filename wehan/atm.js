@@ -1,3 +1,5 @@
+//atm
+
 function atm(number){
     var hundreds=Math.floor(number / 100);
     let rest = number%100;
@@ -12,7 +14,7 @@ function atm(number){
 console.log(atm(380));
 
 
-//advance
+//time converter
 function time(number){
     var hour=Math.floor(number/60);
     let rest = number%60;
